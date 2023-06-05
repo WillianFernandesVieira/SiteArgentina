@@ -40,6 +40,27 @@
           }
         })
       })
+      $(document).ready(function () {
+        $('.btn-primary').click(function (event) {
+          event.preventDefault()
+
+          var linkId = $(this).attr('id')
+          switch (linkId) {
+            case 'link-culinaria':
+              window.location.href = 'culinaria.html'
+              break
+            case 'link-esporte':
+              window.location.href = 'esporte.html'
+              break
+            case 'link-cultura':
+              window.location.href = 'cultura.html'
+              break
+            case 'link-sobre':
+              window.location.href = 'sobre.html'
+              break
+          }
+        })
+      })
     </script>
 
     <style scoped>
@@ -170,7 +191,9 @@
                   paisagens deslumbrantes, em uma viagem inesquecível pelo
                   coração da América do Sul.
                 </p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a id="link-sobre" class="btn btn-primary" href="#"
+                  >Saiba mais</a
+                >
               </div>
             </div>
           </div>
@@ -185,7 +208,9 @@
                   vinhos requintados, enquanto explora a rica gastronomia deste
                   país incrível.
                 </p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a id="link-culinaria" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
               </div>
             </div>
           </div>
@@ -202,7 +227,9 @@
                   desde o tango até o mate, e deixe-se seduzir pela arte e
                   cultura deste destino imperdível na América Latina.
                 </p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a id="link-cultura" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
               </div>
             </div>
           </div>
@@ -217,7 +244,9 @@
                   argentinos e experimente um novo mundo esportivo cheio de
                   cultura e tradição.
                 </p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a id="link-esporte" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
               </div>
             </div>
           </div>
