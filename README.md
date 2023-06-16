@@ -1,4 +1,4 @@
-https://willianfernandesvieira.github.io/Siteargentina/SiteArgentina/index.html
+https://willianfernandesvieira.github.io/Siteargentina/SiteArgentina/
 # LabJavaScript
 Esse site foi desenvolvido para um simples projeto na faculdade nas aulas da disciplina Fund. Web, promovendo o uso do framework bootstrap para designs enxutos e responsivos, utilizando tambem interações de telas com rotas predefinidas no Jquery.
 
