@@ -6,7 +6,11 @@ Professor : Rafael Escalfoni
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/Captura de tela 2023-06-16 084416.png" width="700px">&emsp;
+<img src="/sobre.png" width="700px">&emsp;
+<img src="/literatura.png" width="700px">&emsp;
+<img src="/culinaria" width="700px">&emsp;
+<img src="/futebol" width="700px">&emsp;
+<img src="/headerMobile.png" width="328px">&emsp;<img src="/footerMobile.png" width="328px">&emsp;
 ## Tecnologias
 * JavaScript
 * HTML
